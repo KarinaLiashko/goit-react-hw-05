@@ -1,0 +1,32 @@
+.list {
+    list-style-type: none;
+    /* Remove default bullet points */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.item {
+    margin: 10px 0;
+    /* Add space between list items */
+}
+
+.link {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: #007bff;
+    /* Link color */
+    font-weight: bold;
+    /* Make link text bold */
+    transition: color 0.3s;
+    /* Smooth color transition on hover */
+}
+
+.link:hover {
+    color: #0056b3;
+    /* Darker color on hover */
+}
+
+.link:focus {
+    outline: 2px solid #0056b3;
+    /* Outline for accessibility */
+}
