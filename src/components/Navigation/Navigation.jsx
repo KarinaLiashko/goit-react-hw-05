@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 import clsx from "clsx";
-import css from "./AppBar.module.css";
+import css from "./Navigation.module.css";
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
 };
 
-export const AppBar = () => {
+export const Navigation = () => {
   return (
     <header className={css.header}>
       <p className={css.logo}>The Movie Finder</p>
